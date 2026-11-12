@@ -1,12 +1,26 @@
 # NebuLab
 
-### An interactive product website for the Luna sleep mask
+### Sleep technology that responds to you
 
-NebuLab’s website presents Luna through a cinematic product introduction, an interactive component walkthrough, and a dedicated scientific advisory board page. Built with Next.js, React, and TypeScript, the experience combines custom Canvas animation with responsive layouts and product storytelling.
+NebuLab is developing an intelligent sleep mask that combines EEG sensing, adaptive processing, and gentle haptic feedback. The goal is to understand how you sleep and respond to your changing sleep stages—supporting more restorative nights and a gentler transition into the day.
 
-![Luna sleep mask product imagery](public/slideshow-wake-better.webp)
+The design brings brainwave sensing and timed feedback into a lightweight, light-blocking wearable. Rather than relying only on a fixed alarm, NebuLab is being built around a feedback loop: sense, interpret, and respond.
 
-## Experience
+![NebuLab sleep mask product imagery](public/slideshow-wake-better.webp)
+
+## What we’re building
+
+- **Wake better:** use sleep-stage information to guide the timing of gentle wake-up cues.
+- **Sleep deeper:** explore adaptive feedback designed to support restorative sleep.
+- **See further:** develop a foundation for studying nightly patterns and potential sleep-related biomarkers.
+
+These goals guide the product’s development, from its forehead EEG sensor and haptic modules to its overnight form factor.
+
+## About this repository
+
+This repository contains NebuLab’s public-facing product experience, built with Next.js, React, and TypeScript. It introduces the product, explains its component architecture, and presents the scientific advisory board.
+
+### Website features
 
 - **Animated starfield:** a custom Canvas scene with layered stars, nebula clouds, and pointer-driven parallax.
 - **Product walkthrough:** a 180-frame image sequence that reveals the mask’s internal components, with interactive hotspots explaining each layer.
@@ -15,7 +29,7 @@ NebuLab’s website presents Luna through a cinematic product introduction, an i
 - **Scientific advisory board:** interactive profile cards and a dedicated `/scientific-advisory-board` page.
 - **Waitlist interface:** an early-access form with an in-page confirmation state.
 
-## Technology
+## Website technology
 
 | Layer | Implementation |
 | --- | --- |
@@ -78,7 +92,7 @@ src/app/
 public/
 ├── frames/                          180-frame product animation
 ├── advisors/                        Advisor portraits
-├── luna-mask-hero-video.mp4          Product hero video
+├── *.mp4                            Product hero video
 ├── nebulab-logo.png                 Brand asset
 └── slideshow-*.webp                 Product slideshow imagery
 ```
