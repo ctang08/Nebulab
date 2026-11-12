@@ -20,15 +20,6 @@ These goals guide the product’s development, from its forehead EEG sensor and 
 
 This repository contains NebuLab’s public-facing product experience, built with Next.js, React, and TypeScript. It introduces the product, explains its component architecture, and presents the scientific advisory board.
 
-### Website features
-
-- **Animated starfield:** a custom Canvas scene with layered stars, nebula clouds, and pointer-driven parallax.
-- **Product walkthrough:** a 180-frame image sequence that reveals the mask’s internal components, with interactive hotspots explaining each layer.
-- **Touch-aware interactions:** adapted animation behavior and reduced frame loading on touch devices, with reduced-motion handling in the product sequence.
-- **Product storytelling:** a visual slideshow introducing the project’s sleep, wake, and research themes.
-- **Scientific advisory board:** interactive profile cards and a dedicated `/scientific-advisory-board` page.
-- **Waitlist interface:** an early-access form with an in-page confirmation state.
-
 ## Website technology
 
 | Layer | Implementation |
@@ -97,13 +88,6 @@ public/
 └── slideshow-*.webp                 Product slideshow imagery
 ```
 
-## Working on the site
-
-- Update the landing-page composition and starfield in `StarfieldPage.tsx`.
-- Edit component descriptions and animation behavior in `ScrollScrubVideo.tsx`. Keep its frame count and filename convention aligned with `public/frames/`.
-- Update slideshow content in `ImageSlideshow.tsx` and advisor profiles in `AdvisoryBoardSection.tsx`.
-- Adjust shared colors, layouts, and responsive styles in `globals.css`.
-- Configure page titles, descriptions, and fonts in `layout.tsx`.
 
 ## Current scope
 
